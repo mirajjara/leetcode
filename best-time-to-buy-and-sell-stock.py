@@ -1,5 +1,11 @@
 # Miraj Jara - October 3, 2024
+# Best Time To Buy And Sell Stock
+# Easy problem
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+
+# iterate backwards while keeping track of the biggest value seen
+# subtract current value during iteration from biggest seen and store the biggest difference
+# return the biggest difference
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
